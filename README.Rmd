@@ -7,7 +7,8 @@ output: github_document
 <!-- badges: start -->
 
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![CRAN status](https://www.r-pkg.org/badges/version/simsToolkit)](https://CRAN.R-project.org/package=simsToolkit)
-
+[![R-CMD-check](https://github.com/beansprout88/simsToolkit/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/beansprout88/simsToolkit/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/beansprout88/simsToolkit/branch/master/graph/badge.svg)](https://app.codecov.io/gh/beansprout88/simsToolkit?branch=master)
 <!-- badges: end -->
 
 Toolkit for analysis of ToF-SIMS mass spectrometry images
