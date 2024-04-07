@@ -12,7 +12,7 @@ output: github_document
 
 Toolkit for analysis of ToF-SIMS mass spectrometry images
 
-sims_toolkit.R contains a list of functions used for the analysis of Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) images in the following PhD thesis:
+simsToolkit contains the functions used for the analysis of Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) images in the following PhD thesis:
 
 Greenwood, Daniel Joseph; (2019) Visualising the subcellular distribution of antibiotics against tuberculosis. Doctoral thesis (Ph.D), UCL (University College London) <https://discovery.ucl.ac.uk/id/eprint/10086492/>
 

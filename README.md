@@ -12,7 +12,7 @@ status](https://www.r-pkg.org/badges/version/simsToolkit)](https://CRAN.R-projec
 
 Toolkit for analysis of ToF-SIMS mass spectrometry images
 
-sims_toolkit.R contains a list of functions used for the analysis of
+simsToolkit contains the functions used for the analysis of
 Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) images in the
 following PhD thesis:
 
