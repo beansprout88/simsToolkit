@@ -22,3 +22,5 @@ Imports:
     parallel,
     stats,
     utils
+URL: https://github.com/beansprout88/simsToolkit
+BugReports: https://github.com/beansprout88/simsToolkit/issues
