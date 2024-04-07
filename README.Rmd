@@ -2,55 +2,28 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 # simsToolkit
 
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/simsToolkit)](https://CRAN.R-project.org/package=simsToolkit)
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![CRAN status](https://www.r-pkg.org/badges/version/simsToolkit)](https://CRAN.R-project.org/package=simsToolkit)
+
 <!-- badges: end -->
 
-The goal of simsToolkit is to ...
+Toolkit for analysis of ToF-SIMS mass spectrometry images
 
-## Installation
+sims_toolkit.R contains a list of functions used for the analysis of Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) images in the following PhD thesis:
 
-You can install the development version of simsToolkit like so:
+Greenwood, Daniel Joseph; (2019) Visualising the subcellular distribution of antibiotics against tuberculosis. Doctoral thesis (Ph.D), UCL (University College London) <https://discovery.ucl.ac.uk/id/eprint/10086492/>
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+Images and spectra were firstly analysed in SurfaceLab 6.3 (ION-TOF, Germany). Spectra were segmented using the automated peak detection algorithm, and voxel-by-voxel data exported into a .txt file.
 
-## Example
+Functions are provided for the following activities:
 
-This is a basic example which shows you how to solve a common problem:
+-   extraction of data from .txt
 
-```{r example}
-library(simsToolkit)
-## basic example code
-```
+-   poisson-scaled principal component analysis
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+-   z-correction
 
-```{r cars}
-summary(cars)
-```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+-   3D visualization
