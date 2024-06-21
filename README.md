@@ -25,6 +25,8 @@ distribution of antibiotics against tuberculosis. Doctoral thesis
 (Ph.D), UCL (University College London)
 <https://discovery.ucl.ac.uk/id/eprint/10086492/>
 
+![image](https://github.com/danielgreenwood/simsToolkit/assets/117200027/b0432208-ea55-481d-a55d-0f0740ff2a96)
+
 Images and spectra were firstly analysed in SurfaceLab 6.3 (ION-TOF,
 Germany). Spectra were segmented using the automated peak detection
 algorithm, and voxel-by-voxel data exported into a .txt file.
