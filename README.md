@@ -14,6 +14,8 @@ coverage](https://codecov.io/gh/beansprout88/simsToolkit/branch/master/graph/bad
 
 Toolkit for analysis of ToF-SIMS mass spectrometry images
 
+Install with `devtools::install_github("danielgreenwood/simsToolkit")`
+
 simsToolkit contains the functions used for the analysis of
 Time-of-Flight Secondary Ion Mass Spectrometry (ToF-SIMS) images in the
 following PhD thesis:
